@@ -1,0 +1,71 @@
+// DATA INPUT STYLES
+.input_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .text_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0;
+
+      label {
+        margin-right: 10px;
+      }
+
+      .text_input {
+        width: 100%;
+        max-width: 300px;
+        font-size: 16px;
+        padding: 8px;
+        background-color: #ffffff;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+// DISPLAY RESULTS STYLES
+.results_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 5px;
+  margin-top: 20px;
+
+  p {
+    width: 100%;
+    margin: 5px 0;
+
+    span {
+      font-size: larger;
+      font-weight: 600;
+      color: #FFD700;
+    }
+  }
+}
